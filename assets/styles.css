@@ -1206,11 +1206,18 @@ body {
   color: #fff;
 }
 
-.citrusHills_vet-transform_TextContainer button {
+/* .citrusHills_vet-transform_TextContainer button {
+  max-width: 282px;
+  margin: 0 auto;
+  width: 100%;
+} */
+
+.citrusHills_vet-transform_TextContainer a div{
   max-width: 282px;
   margin: 0 auto;
   width: 100%;
 }
+
 
 .citrusHills__vet-transform_desktopImage{
   display: block;
