@@ -1326,6 +1326,10 @@ body {
     width: 86%;
     margin: 0 auto;
   }
+
+  .citrusHills_vet-transform_TextContainer p {
+    padding: 20px 10px;
+  }
 }
 
 /* End Vet Transform */
