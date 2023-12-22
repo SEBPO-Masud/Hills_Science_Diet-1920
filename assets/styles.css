@@ -122,6 +122,7 @@ body {
     margin: 0 auto;
   }
 }
+
 /* End Common CSS */
 
 /* Take A Quiz & Lifestyle Section */
@@ -213,6 +214,11 @@ body {
   .citrusHills_lifestyleTextContainer {
     width: 70%;
   }
+
+  .citrusHills_lifestyleTextContainer p {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
 }
 
 /* End Take A Quiz & Lifestyle Section */
@@ -272,7 +278,8 @@ body {
   padding: 0;
   margin: 0;
   border: none;
-  height: 0;
+  /* height: 0; */
+  background: unset;
 }
 
 .citrusHills .citrusHills-yt-video button,
@@ -384,6 +391,7 @@ body {
   width: 100%;
   min-height: 180px;
 }
+
 /* default css */
 
 /* FAQ start */
@@ -424,6 +432,7 @@ body {
   font-weight: 400;
   padding-bottom: 18px;
   font-family: "PetcoCircularTT-Regular", arial !important;
+  padding-right: 9%;
 }
 
 /* accordion style */
@@ -457,6 +466,7 @@ body {
   font-weight: 700;
   color: #001952;
   font-family: "PetcoCircularTT-Bold", arial !important;
+  padding-right: 20px;
 }
 
 .citrusHills__accordion-icon {
@@ -487,7 +497,7 @@ body {
   font-family: "PetcoCircularTT-Regular", arial !important
 }
 
-.citusHills_accordion_cta {
+.citrusHills_accordion_cta {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -515,6 +525,11 @@ body {
   height: max-content;
   margin-bottom: 10px;
 }
+
+.citrusHills__accordion-item .citrusHills__accordion-content {
+  padding-right: 12%;
+}
+
 
 .citrusHills__accordion-icon:before {
   content: "+";
@@ -622,6 +637,15 @@ body {
     font-size: 18px;
   }
 
+  .citrusHills__faqTitle p {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    padding-bottom: 18px;
+    font-family: "PetcoCircularTT-Regular", arial !important;
+    padding-right: 12%;
+  }
+
   /* hero banner */
   .citrusHills__heroImage-copy {
     justify-content: center;
@@ -695,7 +719,7 @@ body {
     padding-left: 10px;
   }
 
-  .citusHills_accordion_cta {
+  .citrusHills_accordion_cta {
     justify-content: space-evenly;
     padding-right: 0;
     margin-right: 0;
@@ -773,7 +797,10 @@ body {
 
 @media all and (max-width: 768px) {
 
-  .citrusHills__sectionTitle,
+  .citrusHills__sectionTitle {
+    font-size: 20px;
+  }
+
   .citrusHills__faqTitle h2 {
     font-size: 24px;
   }
@@ -797,6 +824,7 @@ body {
   /* faq section */
   .citrusHills__FAQ {
     padding-top: 0;
+    margin-bottom: 0;
   }
 
   .citrusHills__accordion-title {
@@ -809,6 +837,7 @@ body {
 
   .citrusHills__accordion-content {
     padding-left: 0;
+    /* padding-right: 12%; */
   }
 
   .citrusHills__faqRight {
@@ -1104,6 +1133,17 @@ body {
   }
 }
 
+@media screen and (min-width:521px) and (max-width:600px) {
+  .citrusHills__faqImage-box {
+    width: 650px;
+  }
+}
+
+@media screen and (min-width:426px) and (max-width:520px) {
+  .citrusHills__faqImage-box {
+    width: 580px;
+  }
+}
 
 @media all and (max-width: 425px) {
   .citrusHills__faqRow {
@@ -1115,7 +1155,7 @@ body {
   }
 
   .citrusHills__faqImage-box {
-    width: 610px;
+    width: 470px;
     padding-left: 10px;
   }
 
@@ -1140,7 +1180,7 @@ body {
 @media all and (max-width: 320px) {
 
   .citrusHills__faqImage-box {
-    width: 570px;
+    width: 400px;
   }
 
   .citrusHills__banner {
@@ -1212,18 +1252,18 @@ body {
   width: 100%;
 } */
 
-.citrusHills_vet-transform_TextContainer a div{
+.citrusHills_vet-transform_TextContainer a div {
   max-width: 282px;
   margin: 0 auto;
   width: 100%;
 }
 
 
-.citrusHills__vet-transform_desktopImage{
+.citrusHills__vet-transform_desktopImage {
   display: block;
 }
 
-.citrusHills__vet-transform_mobImage{
+.citrusHills__vet-transform_mobImage {
   display: none;
 }
 
@@ -1233,11 +1273,12 @@ body {
     width: 75%;
     margin: auto;
   }
-  .citrusHills__vet-transform_desktopImage{
+
+  .citrusHills__vet-transform_desktopImage {
     display: none;
   }
-  
-  .citrusHills__vet-transform_mobImage{
+
+  .citrusHills__vet-transform_mobImage {
     display: block;
   }
 }
@@ -1281,7 +1322,7 @@ body {
 }
 
 @media screen and (max-width:375px) {
-  .citrusHills_vet-transform_TextContainer{
+  .citrusHills_vet-transform_TextContainer {
     width: 86%;
     margin: 0 auto;
   }
