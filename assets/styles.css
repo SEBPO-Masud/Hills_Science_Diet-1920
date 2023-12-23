@@ -52,14 +52,6 @@ body {
   color: #000000;
 }
 
-.citrusHills__sectionSubhead {
-  text-align: center;
-  font-size: 16px;
-  font-family: "PetcoCircularTT-Regular", arial !important;
-  color: black;
-  padding-bottom: 10px !important;
-}
-
 .citrusHills__container {
   padding-bottom: 40px;
 }
@@ -122,7 +114,7 @@ body {
     margin: 0 auto;
   }
 
-  .splide__arrows{
+  .splide__arrows {
     display: none;
   }
 }
@@ -130,16 +122,16 @@ body {
 /* End Common CSS */
 
 /* Overflow Scrollbar */
-.citrusX-wrapper::-webkit-scrollbar,
-.citrusX__productCarousel-wrapper::-webkit-scrollbar,
-.citrusX__dogProductCarousel-wrapper::-webkit-scrollbar,
-.citrusX__tabcontent_wrapper::-webkit-scrollbar {
+.citrusHills-wrapper::-webkit-scrollbar,
+.citrusHills__productCarousel-wrapper::-webkit-scrollbar,
+.citrusHills__dogProductCarousel-wrapper::-webkit-scrollbar,
+.citrusHills__tabcontent_wrapper::-webkit-scrollbar {
   display: none;
 }
 
 /* Hide scrollbar for IE, Edge and Firefox */
-.citrusX__productCarousel-wrapper,
-.citrusX__dogProductCarousel-wrapper {
+.citrusHills__productCarousel-wrapper,
+.citrusHills__dogProductCarousel-wrapper {
   -ms-overflow-style: none;
   /* IE and Edge */
   scrollbar-width: none;
@@ -250,7 +242,29 @@ body {
 /* End Take A Quiz & Lifestyle Section */
 
 /* Style tab links */
-.citrusX__speciesTab_buttons {
+.citrusHills__species_header {
+  color: #000;
+  font-family: "PetcoCircularTT-Bold", arial !important;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  padding-bottom: 10px !important;
+}
+
+.citrusHills__species_subheader {
+  color: #000;
+  text-align: center;
+  font-family: "PetcoCircularTT-Regular", arial !important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 20px;
+}
+
+.citrusHills__speciesTab_buttons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -267,7 +281,7 @@ body {
 
 }
 
-.citrusX__speciesTab_item {
+.citrusHills__speciesTab_item {
   text-transform: uppercase;
   padding: 12px 50px;
   margin: 0px 10px;
@@ -284,39 +298,51 @@ body {
   padding-top: 0;
 }
 
-.citrusX__speciesTab_item p {
+.citrusHills__speciesTab_item p {
   margin: 5px 0;
   font-family: "PetcoCircularTT-Bold", arial !important;
   font-weight: 700;
+}
+@media screen and (max-width:768px) {
+  .citrusHills__species_subheader{
+    padding-bottom: 25px !important;
+  }
+}
+
+@media screen and (max-width:520px) {
+  .citrusHills__species_subheader {
+    max-width: 275px;
+    margin: auto !important;
+  }
 }
 
 
 /* Product Carousel section And Dog Cat Category Section Combined CSS */
 /* tab button style */
-.citrusX__tabcontent_wrapper,
-.citrusX__dogProductCarousel-wrapper {
+.citrusHills__tabcontent_wrapper,
+.citrusHills__dogProductCarousel-wrapper {
   width: 100%;
   max-width: 1273px;
   margin: auto;
   overflow-x: auto;
 }
 
-.citrusX__productCarousel-wrapper {
+.citrusHills__productCarousel-wrapper {
   width: 100%;
   overflow-x: auto;
 }
 
-.citrusXTabId,
-.citrusXTabIdDog {
+.citrusHillsTabId,
+.citrusHillsTabIdDog {
   width: 100%;
   overflow-x: auto;
 }
 
-.citrusX__tab-area {
+.citrusHills__tab-area {
   overflow: hidden;
 }
 
-.citrusX__tab-container {
+.citrusHills__tab-container {
   max-width: 1253px;
   width: 100%;
   margin: 0 auto;
@@ -326,31 +352,31 @@ body {
   display: none;
 }
 
-.citrusX__Product,
-.citrusX__dogProduct {
+.citrusHills__Product,
+.citrusHills__dogProduct {
   display: none;
 }
 
-.citrusX__Product img,
-.citrusX__dogProduct img {
+.citrusHills__Product img,
+.citrusHills__dogProduct img {
   object-fit: contain;
 }
 
-.citrusX-tab-cardImg img {
+.citrusHills-tab-cardImg img {
   max-width: 100%;
   max-height: 175px;
 }
 
-.citrusX-tab-card>a {
+.citrusHills-tab-card>a {
   text-decoration: none;
   color: #000;
 }
 
-.citrusX-tab-card p {
+.citrusHills-tab-card p {
   font-family: "PetcoCircularTT-Regular", arial !important;
   color: #333333;
   font-size: 16px;
-  line-height: 22px;
+  /* line-height: 22px; */
   text-align: left;
   margin: 20px 0 10px;
   text-decoration: none;
@@ -365,8 +391,8 @@ body {
   font-weight: 500;
 }
 
-.citrusX__productCTA,
-.citrusX__dogProductCTA {
+.citrusHills__productCTA,
+.citrusHills__dogProductCTA {
   border: 0;
   padding-left: 0;
   background: none;
@@ -379,8 +405,8 @@ body {
   cursor: pointer;
 }
 
-.citrusX__Products,
-.citrusX__dogProducts {
+.citrusHills__Products,
+.citrusHills__dogProducts {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -392,7 +418,7 @@ body {
   overflow: hidden;
 }
 
-.citrusX-tab-cardImg {
+.citrusHills-tab-cardImg {
   padding: 0 10px;
   margin: auto;
 }
@@ -402,13 +428,13 @@ body {
   display: block;
 }
 
-.citrusX__groupProductShot {
+.citrusHills__groupProductShot {
   border: 1px solid #001952;
   border-radius: 10px;
   text-decoration: none;
 }
 
-.citrusX__groupProductShot__item {
+.citrusHills__groupProductShot__item {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -416,12 +442,12 @@ body {
   margin: auto;
 }
 
-.citrusX__groupProductShotImage img {
+/* .citrusHills__groupProductShotImage img {
   max-height: 144px;
   padding: 20px 0;
-}
+} */
 
-.citrusX-tab-cardBody .groupProductCTA {
+.citrusHills-tab-cardBody .groupProductCTA {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -432,28 +458,31 @@ body {
   padding: 0;
 }
 
-.citrusX-tab-cardBody .groupCtaDimention {
+.citrusHills-tab-cardBody .groupCtaDimention {
   display: flex;
   flex-direction: column;
   font-weight: 900;
 }
 
-.citrusX-tab-cardBody .groupCtaDimention p {
+.citrusHills-tab-cardBody .groupCtaDimention p {
   font-size: 20px;
   font-family: "PetcoCircularTT-Bold", arial !important;
   color: #001952;
   margin-top: 0;
   text-decoration: underline;
   font-weight: 700;
+  margin-bottom: 0;
 }
 
-.citrusX-tab-cardBody .groupCtaArrow p {
+.citrusHills-tab-cardBody .groupCtaArrow p {
   font-size: 34px;
   margin-top: 0;
+  font-weight: 700;
+  margin-bottom: 0;
 }
 
-.citrusX__tab_item,
-.citrusX__dog_tab_item {
+.citrusHills__tab_item,
+.citrusHills__dog_tab_item {
   /* text-transform: uppercase; */
   /* padding: 12px 20px;
   margin: 0px 10px; */
@@ -484,15 +513,15 @@ body {
   font-weight: 450;
 }
 
-.citrusX__speciesTab_container .citrusX__speciesTab_buttons .citrusX__speciesTab_item.citrusX__species_active_tab {
+.citrusHills__speciesTab_container .citrusHills__speciesTab_buttons .citrusHills__speciesTab_item.citrusHills__species_active_tab {
   color: #001952;
   border-bottom: 10px solid #001952;
   border-radius: 0;
   /* background: #001952; */
 }
 
-.citrusX__tab_item.citrusX__active_tab,
-.citrusX__dog_tab_item.citrusX__active_tab_dog {
+.citrusHills__tab_item.citrusHills__active_tab,
+.citrusHills__dog_tab_item.citrusHills__active_tab_dog {
   color: white;
   /* border-bottom: 10px solid #001952; */
   /* border-radius: 0; */
@@ -500,8 +529,8 @@ body {
   font-weight: 700;
 }
 
-.citrusXTabId,
-.citrusXTabIdDog {
+.citrusHillsTabId,
+.citrusHillsTabIdDog {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -517,24 +546,24 @@ body {
 }
 
 /* hide arrow */
-.citrusX_hide_arrow .splide__arrows {
+.citrusHills_hide_arrow .splide__arrows {
   display: none;
 }
 
 @media screen and (min-width: 769px) and (max-width: 1200px) {
-  .citrusX__tabcontent_wrapper {
+  .citrusHills__tabcontent_wrapper {
     width: 95%;
   }
 }
 
 @media all and (max-width: 1301px) {
-  .citrusX__tab-container {
+  .citrusHills__tab-container {
     width: 90%;
   }
 }
 
 @media screen and (min-width: 922px) and (max-width: 1120px) {
-  .citrusX__commonCTA {
+  .citrusHills__commonCTA {
     width: 170px;
     height: 40px;
   }
@@ -543,13 +572,13 @@ body {
 @media screen and (min-width: 769px) and (max-width: 1024px) {
 
 
-  .citrusX__commonCTA {
+  .citrusHills__commonCTA {
     width: 150px;
     height: 40px;
   }
 
-  /* .citrusX__tabcontent_wrapper,
-  .citrusX__dogProductCarousel-wrapper {
+  /* .citrusHills__tabcontent_wrapper,
+  .citrusHills__dogProductCarousel-wrapper {
     width: max-content;
   } */
 }
@@ -557,21 +586,21 @@ body {
 @media screen and (max-width: 768px) {
 
   /* product section */
-  .citrusX__main-tab-content {
+  .citrusHills__main-tab-content {
     padding: 0 0 0 30px;
   }
 
-  .citrusXTabId,
-  .citrusXTabIdDog {
+  .citrusHillsTabId,
+  .citrusHillsTabIdDog {
     width: max-content;
     margin: 0 auto 20px;
   }
 
-  .citrusX__tab-container {
+  .citrusHills__tab-container {
     width: 100%;
   }
 
-  .citrusX__commonCTA {
+  /* .citrusHills__commonCTA {
     font-size: 16px;
     color: #001952;
     text-transform: capitalize;
@@ -583,14 +612,14 @@ body {
     margin: 0 auto;
     width: fit-content;
     height: fit-content;
-  }
+  } */
 
   .splide__arrow {
     display: none;
   }
 
-  .citrusX__tab_item,
-  .citrusX__dog_tab_item {
+  .citrusHills__tab_item,
+  .citrusHills__dog_tab_item {
     font-size: 11.5px;
     width: 102px;
 
@@ -600,8 +629,8 @@ body {
 
 @media all and (max-width: 575px) {
 
-  .citrusX__Product,
-  .citrusX__dogProduct {
+  .citrusHills__Product,
+  .citrusHills__dogProduct {
     max-width: 195px;
   }
 }
@@ -618,9 +647,9 @@ body {
 @media screen and (max-width: 768px) {
 
   /* Common Style */
-  .citrusX__commonCTA {
-    color: #001952;
-    text-transform: capitalize;
+  .citrusHills__commonCTA {
+    color: white;
+    text-transform: none;
     background-color: unset;
     border: none;
     border-radius: 0;
