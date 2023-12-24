@@ -4,6 +4,724 @@ body {
   box-sizing: border-box;
 }
 
+/* Hero Slider Start*/
+/* .citrus_petco_hills_bp h1, h2, h3{
+  font-family: "PetcoCircularTT-Bold", arial !important;
+  margin: 0;
+} */
+
+/* .citrus_petco_hills_bp p{
+  font-family: "PetcoCircularTT-Regular", arial !important;
+  margin: 0;
+} */
+
+.citrus_hills {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.citrus_hills::-webkit-scrollbar {
+  display: none;
+}
+
+.citrus_hills img {
+  width: 100%;
+}
+
+.citrus_hills .flex-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.citrus_hills a {
+  text-decoration: none;
+}
+
+.citrus_hills .cta-underline {
+  font-size: 16px;
+  color: #001952;
+  font-family: "PetcoCircularTT-Bold", arial !important;
+  text-align: center;
+  text-decoration: underline;
+  width: 100%;
+}
+
+.citrus_hills .cta-box {
+  width: 166px;
+  border-radius: 0.25rem;
+  background-color: #ffffff;
+  padding: 1rem 0;
+  text-align: center;
+  color: #000000;
+  font-family: "PetcoCircularTT-Bold", arial !important;
+  border: 1px solid #001952;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.citrus_hills .cta-box {
+  width: 166px;
+  border-radius: 0.25rem;
+  background-color: #ffffff;
+  padding: 1rem 0;
+  text-align: center;
+  color: #000000;
+  font-family: "PetcoCircularTT-Bold", arial !important;
+  border: 1px solid #001952;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.citrus_petco_hills_bp {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.citrus_hills .citrus_petco_hills_bp__hero {
+  background-image: url("../images/citrus-petco-hills-curve-dsk1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: flex-start !important;
+  max-width: 1440px;
+  margin: 0 auto;
+  min-height: 330px;
+}
+
+/* .citrus_petco_hills_bp__hero h1, p{
+  color: #fff;
+} */
+
+.citrus_petco_hills_bp__hero h1 {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin: 0;
+  color: #fff;
+  font-family: "PetcoCircularTT-Bold", arial !important;
+}
+
+.citrus_petco_hills_bp__hero p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  padding: 10px 0 0;
+  color: #fff;
+}
+
+.citrus_petco_hills_bp__hero .disclaimer {
+  padding: 0;
+  font-size: 12px;
+  font-family: "PetcoCircularTT-Regular", arial !important;
+  font-weight: 500;
+}
+
+.citrus_petco_hills_bp__hero--logo {
+  padding: 2% 0 0 3%;
+  min-width: 10%;
+}
+
+.citrus_petco_hills_bp__hero--copy {
+  padding: 2% 0% 2% 2%;
+  min-width: 55%;
+}
+
+.citrus_petco_hills_bp__hero--copy .cta-box {
+  flex-wrap: wrap !important;
+  padding: 20px 0;
+  border: none;
+  width: auto;
+  background: unset;
+  justify-content: flex-start !important;
+}
+
+.citrus_petco_hills_bp__hero--copy .cta-box a {
+  width: auto;
+  border-radius: 0.25rem;
+  background-color: #ffffff;
+  padding: 1rem;
+  text-align: center;
+  color: #001952;
+  font-family: "PetcoCircularTT-Bold", arial !important;
+  border: none;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  min-width: 180px;
+}
+
+.citrus_petco_hills_bp__hero--copy .cta-box a:nth-child(2) {
+  margin-left: 22px;
+}
+
+.citrus_petco_hills_bp__hero--copy .cta-box:focus-visible {
+  outline: 0;
+}
+
+.citrus_petco_hills_bp__hero--shots {
+  padding: 30px 0 0 0;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.pov1 .citrus_petco_hills_bp__hero--shots {
+  max-width: 420px;
+}
+
+
+/* Medium devices */
+@media screen and (min-width:1280px) {
+  #citrus_hills {
+    padding-bottom: 30px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+
+  /* Brand page styles */
+  .citrus_hills .citrus_petco_hills_bp__hero {
+    min-height: 310px;
+  }
+
+  .citrus_petco_hills_bp__hero h1 {
+    font-size: 20px;
+  }
+
+  .citrus_petco_hills_bp__hero p {
+    font-size: 16px;
+  }
+
+  .citrus_petco_hills_bp__hero--logo {
+    padding: 4% 0 0 3%;
+  }
+
+  .citrus_petco_hills_bp__hero--copy {
+    padding: 3% 0 0 3%;
+    max-width: 350px;
+    min-width: 50%;
+  }
+
+  .citrus_petco_hills_bp__hero--copy .cta-box a {
+    font-size: 12px;
+    padding: 12px;
+  }
+
+  .citrus_petco_hills_bp__hero--shots {
+    padding: 20px 3% 0 0;
+  }
+
+  .citrus_hillsBP_carousel-indicators {
+    bottom: 50px;
+  }
+}
+
+/* Tab devices */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+  /* Brand page styles */
+  .citrus_hills .citrus_petco_hills_bp__hero {
+    min-height: 230px;
+  }
+
+  .citrus_hills .citrus_petco_hills_bp__hero {
+    min-height: 300px;
+  }
+
+  .citrus_petco_hills_bp__hero--copy {
+    min-width: 45%;
+    padding: 2% 0% 2% 4%;
+  }
+
+  .citrus_petco_hills_bp__hero h1 {
+    font-size: 20px;
+  }
+
+  .citrus_petco_hills_bp__hero--copy .cta-box a {
+    border-radius: 0;
+    background-color: transparent;
+    padding: 5px 0;
+    text-align: center;
+    color: #fff;
+    border: none;
+    text-transform: capitalize;
+    text-decoration: underline;
+    justify-content: flex-start;
+  }
+
+  .citrus_hillsBP_carousel-indicators {
+    bottom: 50px !important;
+  }
+
+  .citrus_petco_hills_bp__hero--copy .cta-box a:nth-child(2) {
+    margin-left: 0;
+  }
+
+  .citrus_petco_hills_bp__hero p {
+    font-size: 14px;
+  }
+
+  .citrus_petco_hills_bp__hero--shots {
+    min-width: 300px;
+  }
+}
+
+
+
+/* Mobile devices */
+@media only screen and (max-width: 767px) {
+
+  /* Show hide class */
+  .m-hide {
+    display: none;
+  }
+
+  .d-hide {
+    display: block;
+  }
+
+  .citrus_hills .cta-box {
+    background: none;
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: underline !important;
+    border: none;
+    text-transform: initial;
+    margin: 0 auto;
+  }
+
+  /* Brand page styles */
+  .citrus_hills .citrus_petco_hills_bp__hero {
+    background-image: url("../images/citrus-petco-hills-curve-mob.png");
+    flex-wrap: wrap !important;
+    padding-bottom: 30px;
+    min-height: 100%;
+  }
+
+  .citrus_petco_hills_bp__hero--logo {
+    display: none;
+  }
+
+  .citrus_petco_hills_bp__hero--copy {
+    padding: 20px 5% 2%;
+    max-width: 310px;
+    margin: 0 auto;
+  }
+
+  .citrus_petco_hills_bp__hero h1,
+  p {
+    text-align: center;
+  }
+
+  .citrus_petco_hills_bp__hero--shots {
+    padding: 0 5%;
+  }
+
+  .citrus_petco_hills_bp__hero h1 {
+    font-size: 25px;
+  }
+
+  .citrus_petco_hills_bp__hero p {
+    padding: 10px 0 0;
+    font-size: 16px;
+  }
+
+  .citrus_petco_hills_bp__hero--copy .cta-box {
+    justify-content: center !important;
+    padding: 15px 0;
+  }
+
+  .citrus_petco_hills_bp__hero--copy .cta-box a {
+    border-radius: 0;
+    background-color: transparent;
+    padding: 5px 0;
+    text-align: center;
+    color: #fff;
+    border: none;
+    text-transform: capitalize;
+    text-decoration: underline;
+    justify-content: center;
+  }
+
+  .citrus_petco_hills_bp__hero--copy .cta-box a:nth-child(2) {
+    margin-left: 0;
+  }
+
+  .citrus_petco_hills_bp__hero .disclaimer {
+    padding-bottom: 20px;
+  }
+
+  /* End Brand Page */
+
+}
+
+@media screen and (max-width:520px) {
+  .citrus_hillsBP_carousel-indicators {
+    bottom: 0 !important;
+  }
+}
+
+/* Show hide class */
+.m-hide {
+  display: block;
+  width: 100%;
+}
+
+.d-hide {
+  display: none;
+  width: 100%;
+}
+
+.citrus_hills .flex-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+/* POV sections */
+.citrus_hillsBP_carousel {
+  overflow-x: hidden;
+  position: relative;
+  display: none;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.citrus_hillsBP_carousel .citrus_hillsBP_carousel-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: all ease .5s;
+  transition: all ease .5s;
+  width: 100%;
+  overflow: hidden;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: start !important;
+  -ms-flex-align: start !important;
+  align-items: flex-start !important;
+  background: #fff;
+}
+
+.citrus_hillsBP_carousel .citrus_hillsBP_carousel-inner .citrus_hillsBP_carousel-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+}
+
+.citrus_hillsBP_carousel .citrus_hillsBP_carousel-inner .citrus_hillsBP_carousel-item .default-wrap {
+  width: 100%;
+  min-height: 330px;
+}
+
+.citrus_hillsBP_carousel .citrus_hillsBP_carousel-inner .citrus_hillsBP_carousel-item .citrus_hillsBP_carousel-item__col:nth-child(1) {
+  width: 20%;
+}
+
+.citrus_hillsBP_carousel .citrus_hillsBP_carousel-inner .citrus_hillsBP_carousel-item .citrus_hillsBP_carousel-item__col:nth-child(2) {
+  width: 50%;
+}
+
+.citrus_hillsBP_carousel .citrus_hillsBP_carousel-inner .citrus_hillsBP_carousel-item .citrus_hillsBP_carousel-item__col:nth-child(3) {
+  position: relative;
+  width: 30%;
+}
+
+.citrus_hillsBP_carousel .citrus_hillsBP_carousel-inner .citrus_hillsBP_carousel-item .citrus_hillsBP_carousel-item__col:nth-child(3) .citrus_petmate__pov--shots img:nth-child(2) {
+  position: absolute;
+  top: 30px;
+  left: -70px;
+  max-width: 350px;
+}
+
+.citrus_hillsBP_carousel .citrus_hillsBP_carousel-inner .citrus_hillsBP_carousel-item .citrus_petmate__pov--text {
+  width: 100%;
+  text-align: left;
+  padding: 0 10px 0 20px;
+}
+
+.citrus_hillsBP_carousel .citrus_hillsBP_carousel-inner .citrus_hillsBP_carousel-item .citrus_petmate__pov--text h1 {
+  font-size: 35px;
+  color: #000000;
+  padding: 15px 0;
+  line-height: 36px;
+}
+
+.citrus_hillsBP_carousel .citrus_hillsBP_carousel-inner .citrus_hillsBP_carousel-item .citrus_petmate__pov--text p {
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+.citrus_hillsBP_carousel .citrus_hillsBP_carousel-inner .citrus_hillsBP_carousel-item .citrus_petmate__pov--logo {
+  padding: 0 20px 0 40px;
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.citrus_hillsBP_carousel .citrus_hillsBP_carousel-inner .citrus_hillsBP_carousel-item .custom-container {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.citrus_hillsBP_carousel-controls .prev {
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  /* background-image: url("prev.svg"); */
+  background-position: center;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  opacity: .5;
+}
+
+.citrus_hillsBP_carousel-controls .next {
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  /* background-image: url("next.svg"); */
+  background-position: center;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  opacity: .5;
+}
+
+.prev:hover,
+.next:hover {
+  opacity: 1;
+}
+
+.citrus_hillsBP_carousel-indicators {
+  position: absolute;
+  bottom: 20px;
+  left: calc(100% / 2 - 52px);
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 5px 5px 0 0;
+  padding: 10px 10px 5px !important;
+}
+
+.citrus_hillsBP_carousel-indicators span {
+  display: inline-block;
+  border: 2px solid #09205c;
+  padding: 7px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.citrus_hillsBP_carousel-indicators span.active {
+  background-color: #09205c;
+}
+
+@media only screen and (min-width: 1024px) {}
+
+/* Medium devices */
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+  .citrus_hillsBP_carousel .citrus_hillsBP_carousel-inner .citrus_hillsBP_carousel-item .citrus_petmate__pov--text h1 {
+    font-size: 24px;
+    padding: 10px 0;
+    line-height: 28px !important;
+  }
+
+  .citrus_hillsBP_carousel .citrus_hillsBP_carousel-inner .citrus_hillsBP_carousel-item .citrus_petmate__pov--text p {
+    padding-bottom: 10px;
+    font-size: 14px;
+  }
+
+}
+
+/* Tab devices */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .citrus_hillsBP_carousel .citrus_hillsBP_carousel-inner {
+    min-height: auto;
+  }
+
+  .citrus_hillsBP_carousel .citrus_hillsBP_carousel-inner .citrus_hillsBP_carousel-item .citrus_hillsBP_carousel-item__col:nth-child(2) {
+    width: 40%;
+  }
+
+  .citrus_hillsBP_carousel .citrus_hillsBP_carousel-inner .citrus_hillsBP_carousel-item .citrus_hillsBP_carousel-item__col:nth-child(3) {
+    width: 40%;
+  }
+
+  .citrus_hillsBP_carousel .citrus_hillsBP_carousel-inner .citrus_hillsBP_carousel-item .citrus_hillsBP_carousel-item__col:nth-child(3) .citrus_petmate__pov--shots img:nth-child(2) {
+    position: absolute;
+    top: 30px;
+    max-width: 200px;
+    left: -35px;
+  }
+
+  .citrus_hillsBP_carousel .citrus_hillsBP_carousel-inner .citrus_hillsBP_carousel-item .citrus_petmate__pov--text h1 {
+    font-size: 19px;
+    padding: 0 0 10px;
+    line-height: 21px !important;
+  }
+
+  .citrus_hillsBP_carousel .citrus_hillsBP_carousel-inner .citrus_hillsBP_carousel-item .citrus_petmate__pov--text p {
+    font-size: 13px;
+    padding-bottom: 10px;
+    line-height: 15px;
+  }
+
+  .citrus_hillsBP_carousel .citrus_hillsBP_carousel-inner .citrus_hillsBP_carousel-item .citrus_petmate__pov--cta a {
+    height: 44px;
+  }
+
+  .citrus_hillsBP_carousel .citrus_hillsBP_carousel-inner .pov1 .citrus_hillsBP_carousel-item__col:nth-child(2) .citrus_petmate__pov--text p {
+    max-width: 220px;
+  }
+
+  .citrus_petmate__pov--logo {
+    max-width: 90px;
+    padding-top: 10px;
+  }
+
+  /* .citrus_hillsBP_carousel-indicators {
+    display: none;
+  } */
+}
+
+/* Mobile devices */
+@media only screen and (max-width: 767px) {
+
+  /* Show hide class */
+  .m-hide {
+    display: none;
+  }
+
+  .d-hide {
+    display: block;
+  }
+
+  .citrus_hillsBP_carousel-inner .citrus_hillsBP_carousel-item .citrus_hillsBP_carousel-item__col:nth-child(2) {
+    width: 60% !important;
+  }
+
+  .citrus_hillsBP_carousel-inner .citrus_hillsBP_carousel-item .citrus_hillsBP_carousel-item__col:nth-child(3) {
+    width: 40% !important;
+  }
+
+  .citrus_hillsBP_carousel-inner .citrus_hillsBP_carousel-item .citrus_hillsBP_carousel-item__col:nth-child(3) .citrus_petmate__pov--shots img:nth-child(2) {
+    left: -10px !important;
+  }
+
+  .citrus_hillsBP_carousel-inner .citrus_hillsBP_carousel-item .citrus_hillsBP_carousel-item__col .citrus_petmate__pov--cta {
+    padding: 10px 0 0 15px;
+  }
+
+  .citrus_hillsBP_carousel-inner .citrus_hillsBP_carousel-item .citrus_hillsBP_carousel-item__col .citrus_petmate__pov--cta a {
+    color: #000000 !important;
+    border: none !important;
+    min-width: auto;
+    margin: 0 15px;
+    padding: 0;
+    height: initial;
+  }
+
+  .citrus_hillsBP_carousel-inner .citrus_hillsBP_carousel-item .citrus_hillsBP_carousel-item__col .citrus_petmate__pov--text {
+    padding: 0;
+  }
+
+  .citrus_hillsBP_carousel-inner .citrus_hillsBP_carousel-item .citrus_hillsBP_carousel-item__col .citrus_petmate__pov--text h1,
+  .citrus_hillsBP_carousel-inner .citrus_hillsBP_carousel-item .citrus_hillsBP_carousel-item__col .citrus_petmate__pov--text p {
+    max-width: 350px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 0;
+  }
+
+  .citrus_hillsBP_carousel-inner .citrus_hillsBP_carousel-item .citrus_hillsBP_carousel-item__col .citrus_petmate__pov--text h1 {
+    font-size: 21px;
+    padding-top: 0;
+    padding-bottom: 10px;
+  }
+
+  .citrus_hillsBP_carousel-inner .citrus_hillsBP_carousel-item .citrus_hillsBP_carousel-item__col .citrus_petmate__pov--text p {
+    padding-bottom: 0;
+    font-size: 14px;
+  }
+
+  .citrus_hillsBP_carousel-inner .citrus_petmate__pov--logo {
+    padding: 0px 0 0 10px !important;
+    margin: 0 !important;
+    max-width: 80% !important;
+  }
+
+}
+
+/* Mobile devices */
+@media only screen and (max-width: 320px) {
+  .citrus_hillsBP_carousel-inner .citrus_hillsBP_carousel-item .citrus_hillsBP_carousel-item__col .citrus_petmate__pov--cta {
+    padding: 10px 0 0 10px;
+  }
+
+  .citrus_hillsBP_carousel-inner .citrus_hillsBP_carousel-item .citrus_hillsBP_carousel-item__col .citrus_petmate__pov--cta a {
+    color: #000000 !important;
+    border: none !important;
+    min-width: auto;
+    margin: 0 15px;
+    padding: 0;
+    height: initial;
+  }
+
+  .citrus_hillsBP_carousel-inner .citrus_hillsBP_carousel-item .citrus_hillsBP_carousel-item__col .citrus_petmate__pov--text h1 {
+    font-size: 18px;
+  }
+
+  .citrus_hillsBP_carousel-inner .citrus_hillsBP_carousel-item .citrus_hillsBP_carousel-item__col .citrus_petmate__pov--text p {
+    font-size: 12px;
+  }
+}
+
+/* Hero Slider Ennd*/
+
 .citrusHills__wrapper {
   max-width: 1440px;
   margin: 0 auto;
@@ -186,7 +904,7 @@ body {
 }
 
 .citrusHills_lifestyleTextContainer p {
-  padding: 20px 0;
+  padding: 30px 0;
   font-family: "PetcoCircularTT-Regular", arial !important;
   font-size: 16px;
   font-weight: 400;
@@ -202,31 +920,37 @@ body {
 
 @media screen and (max-width:520px) {
   .citrusHills_lifestyleTextContainer {
-    width: 75%;
+    width: 62%;
     margin: auto;
     padding: 30px 0;
-  }
-
-  .citrusHills__desktopImage {
-    display: none;
-  }
-
-  .citrusHills__mobImage {
-    display: block;
-  }
-
-  .citrusHills_lifestyleRow {
+    min-height: 234px;
     display: flex;
     flex-direction: column;
-  }
+    justify-content: center;
+    align-items: center;
+  
+}
 
-  .citrusHills_lifestyleRow .order1 {
-    order: 2;
-  }
+.citrusHills__desktopImage {
+  display: none;
+}
 
-  .citrusHills_lifestyleRow .order2 {
-    order: 1;
-  }
+.citrusHills__mobImage {
+  display: block;
+}
+
+.citrusHills_lifestyleRow {
+  display: flex;
+  flex-direction: column;
+}
+
+.citrusHills_lifestyleRow .order1 {
+  order: 2;
+}
+
+.citrusHills_lifestyleRow .order2 {
+  order: 1;
+}
 }
 
 @media screen and (max-width:375px) {
@@ -549,6 +1273,7 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+
   /* product section */
   .citrusHills__main-tab-content {
     padding: 0 0 0 30px;
@@ -589,6 +1314,7 @@ body {
 .splide__arrow:disabled {
   opacity: 0;
 }
+
 /* End Product Carousel section And Dog Cat Category Section Combined CSS */
 
 
@@ -879,6 +1605,7 @@ body {
 }
 
 @media all and (min-width: 769px) and (max-width: 921px) {
+
   /* faq section */
   .citrusHills__faqRow {
     display: grid;
@@ -897,6 +1624,7 @@ body {
 }
 
 @media all and (max-width: 768px) {
+
   .citrusHills__sectionTitle,
   .citrusHills__faqTitle h2 {
     font-size: 18px;
@@ -909,6 +1637,7 @@ body {
     padding-bottom: 18px;
     font-family: "PetcoCircularTT-Regular", arial !important;
     padding-right: 12%;
+    text-align: left;
   }
 
   /* faq section */
@@ -1348,7 +2077,7 @@ body {
 
 @media screen and (max-width:375px) {
   .citrusHills_vet-transform_TextContainer {
-    width: 86%;
+    width: 84%;
     margin: 0 auto;
   }
 
