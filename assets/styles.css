@@ -116,6 +116,7 @@ body {
 }
 
 .citrus_petco_hills_bp__hero p {
+  font-family: "PetcoCircularTT-Regular", arial !important;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
