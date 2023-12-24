@@ -1119,7 +1119,7 @@ body {
   margin: 20px 0 10px;
   text-decoration: none;
   overflow: hidden;
-  text-overflow: ellipsis;
+  text-overflow: ellipsis !important;
   display: -webkit-box;
   -webkit-line-clamp: 2 !important;
   line-clamp: 2;
