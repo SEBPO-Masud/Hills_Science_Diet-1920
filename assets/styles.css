@@ -110,6 +110,7 @@ body {
     align-items: center;
     justify-content: center;
     text-decoration: underline;
+    font-family: "PetcoCircularTT-Bold", arial !important;
     font-weight: 700;
     margin: 0 auto;
   }
@@ -261,7 +262,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  padding-bottom: 20px;
+  padding-bottom: 20px !important;
 }
 
 .citrusHills__speciesTab_buttons {
@@ -302,11 +303,6 @@ body {
   margin: 5px 0;
   font-family: "PetcoCircularTT-Bold", arial !important;
   font-weight: 700;
-}
-@media screen and (max-width:768px) {
-  .citrusHills__species_subheader{
-    padding-bottom: 25px !important;
-  }
 }
 
 @media screen and (max-width:520px) {
@@ -376,7 +372,6 @@ body {
   font-family: "PetcoCircularTT-Regular", arial !important;
   color: #333333;
   font-size: 16px;
-  /* line-height: 22px; */
   text-align: left;
   margin: 20px 0 10px;
   text-decoration: none;
@@ -442,11 +437,6 @@ body {
   margin: auto;
 }
 
-/* .citrusHills__groupProductShotImage img {
-  max-height: 144px;
-  padding: 20px 0;
-} */
-
 .citrusHills-tab-cardBody .groupProductCTA {
   display: flex;
   flex-direction: row;
@@ -483,23 +473,6 @@ body {
 
 .citrusHills__tab_item,
 .citrusHills__dog_tab_item {
-  /* text-transform: uppercase; */
-  /* padding: 12px 20px;
-  margin: 0px 10px; */
-  /* font-size: 14px; */
-  /* text-decoration: none;
-  background-color: transparent;
-  border: none; */
-  /* border-bottom: 10px solid transparent; */
-  /* cursor: pointer; */
-  /* color: #9b9b9b; */
-  /* font-weight: 700;
-  line-height: 1.3;
-  text-align: center;
-  border-radius: 50px;
-  fill: #F0F0F0;
-  filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.25)); */
-
   width: 200px;
   height: 35px;
   border: none;
@@ -517,14 +490,11 @@ body {
   color: #001952;
   border-bottom: 10px solid #001952;
   border-radius: 0;
-  /* background: #001952; */
 }
 
 .citrusHills__tab_item.citrusHills__active_tab,
 .citrusHills__dog_tab_item.citrusHills__active_tab_dog {
   color: white;
-  /* border-bottom: 10px solid #001952; */
-  /* border-radius: 0; */
   background: #001952;
   font-weight: 700;
 }
@@ -542,7 +512,6 @@ body {
   align-items: center;
   margin-bottom: 30px;
   gap: 10px;
-  /* border-bottom: 1px solid #021b4e; */
 }
 
 /* hide arrow */
@@ -576,15 +545,9 @@ body {
     width: 150px;
     height: 40px;
   }
-
-  /* .citrusHills__tabcontent_wrapper,
-  .citrusHills__dogProductCarousel-wrapper {
-    width: max-content;
-  } */
 }
 
 @media screen and (max-width: 768px) {
-
   /* product section */
   .citrusHills__main-tab-content {
     padding: 0 0 0 30px;
@@ -599,20 +562,6 @@ body {
   .citrusHills__tab-container {
     width: 100%;
   }
-
-  /* .citrusHills__commonCTA {
-    font-size: 16px;
-    color: #001952;
-    text-transform: capitalize;
-    background: none;
-    padding: 0;
-    text-decoration: underline !important;
-    font-family: "PetcoCircularTT-Bold", arial !important;
-    font-weight: 900;
-    margin: 0 auto;
-    width: fit-content;
-    height: fit-content;
-  } */
 
   .splide__arrow {
     display: none;
@@ -639,36 +588,7 @@ body {
 .splide__arrow:disabled {
   opacity: 0;
 }
-
-
-/*------------------*/
-/* Responsive CSS */
-/*------------------*/
-@media screen and (max-width: 768px) {
-
-  /* Common Style */
-  .citrusHills__commonCTA {
-    color: white;
-    text-transform: none;
-    background-color: unset;
-    border: none;
-    border-radius: 0;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: underline;
-    font-family: "PetcoCircularTT-Bold", arial !important;
-    font-weight: 900;
-    margin: 0 auto;
-  }
-}
-
 /* End Product Carousel section And Dog Cat Category Section Combined CSS */
-
-
 
 
 /* FAQ Section start */
@@ -708,14 +628,10 @@ body {
   height: 356px;
   border-radius: 8px;
   border: none;
-  /* Newly Added */
   position: absolute;
-  /* Newly Added */
   top: 0;
-  /* Newly Added */
   left: 0;
 }
-
 
 /* Video Popup */
 .citrusHills .citrusHills-yt-video {
@@ -726,7 +642,6 @@ body {
   padding: 0;
   margin: 0;
   border: none;
-  /* height: 0; */
   background: unset;
 }
 
@@ -761,83 +676,10 @@ body {
   min-height: 100%;
 }
 
-.citrusHills .education-single-item .show-video iframe {
-  min-height: 225px;
-}
-
-.citrusHills .citrus-upgrade-video-area .show-video {
-  top: -30px;
-}
-
-.citrusHills .citrus-upgrade-video-area .show-video iframe {
-  min-height: 280px;
-}
-
-.citrusHills .citrus-bg-sky .show-video iframe {
-  min-height: 270px;
-}
-
-.citrus-benefits-single-item .citrusHills-yt-video {
-  position: relative;
-}
-
 .citrusHills-yt-video .button {
   padding: 0;
   margin: 0;
   border: none;
-}
-
-.citrus-benefits-single-item .citrusHills-yt-video button,
-.citrus-benefits-single-item .citrusHills-yt-video button:focus-visible {
-  background: none;
-  border: none;
-  outline: none;
-  cursor: pointer;
-}
-
-.citrus-benefits-single-item .show-video {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: #fff;
-  padding: 10px;
-  border-radius: 10px;
-}
-
-.citrus-benefits-single-item .show-video span {
-  position: absolute;
-  right: 5px;
-  top: 5px;
-  z-index: 99999;
-  color: #333;
-  background: #fff;
-  width: 20px;
-  border-radius: 50%;
-  height: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid #efefef;
-  font-size: 20px;
-  padding: 1px 0 0;
-  cursor: pointer;
-}
-
-.citrus-benefits-single-item .show-video span:hover {
-  color: #fff;
-  background: #e4425c;
-  border: 1px solid #e4425c;
-}
-
-.citrus-benefits-single-item .show-video iframe {
-  width: 100%;
-  min-height: 180px;
-}
-
-.citrus-benefits-single-item .show-video iframe {
-  width: 100%;
-  min-height: 180px;
 }
 
 /* default css */
@@ -884,7 +726,7 @@ body {
   padding-right: 9%;
 }
 
-/* accordion style */
+/* Accordion style */
 .citrusHills__accordion {
   border: 1px solid rgba(0, 0, 0, 0.25);
   border-left: none;
@@ -1036,25 +878,6 @@ body {
 }
 
 @media all and (min-width: 769px) and (max-width: 921px) {
-  .citrusHills__heroImage-copy {
-    width: 96%;
-    margin: auto 2%;
-  }
-
-  .spotlightCopy h1 {
-    font-size: 20px;
-  }
-
-  .spotlightCopy h1 span {
-    font-size: 40px;
-  }
-
-  .spotlightCopy p {
-    margin-top: 10px;
-    font-size: 14px;
-    line-height: 17px;
-  }
-
   /* faq section */
   .citrusHills__faqRow {
     display: grid;
@@ -1073,14 +896,6 @@ body {
 }
 
 @media all and (max-width: 768px) {
-  .citrusHills__desktop-version {
-    display: none;
-  }
-
-  .citrusHills__mobile-version {
-    display: block;
-  }
-
   .citrusHills__sectionTitle,
   .citrusHills__faqTitle h2 {
     font-size: 18px;
@@ -1093,55 +908,6 @@ body {
     padding-bottom: 18px;
     font-family: "PetcoCircularTT-Regular", arial !important;
     padding-right: 12%;
-  }
-
-  /* hero banner */
-  .citrusHills__heroImage-copy {
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-  }
-
-  .hero-left {
-    column-gap: 0px;
-  }
-
-  .spotlightCopy h1 {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-
-  .spotlightCopy h1 span {
-    font-size: 32px;
-  }
-
-  .spotlightCopy p {
-    margin-top: 10px;
-    font-size: 14px;
-    line-height: 17px;
-    margin-bottom: 15px;
-  }
-
-  .hero-rightCTA a {
-    min-width: max-content;
-    font-size: 16px;
-    line-height: 20px;
-    font-weight: 900;
-    color: #fff;
-    text-decoration: underline;
-    text-transform: capitalize;
-    text-align: left;
-    border: none;
-    background: none;
-  }
-
-  .citrusHills__disclaimer.hero {
-    color: #fff;
-  }
-
-  .hero-rightCTA a:hover {
-    background: none;
-    color: #fff;
   }
 
   /* faq section */
@@ -1191,34 +957,8 @@ body {
   }
 }
 
-@media all and (min-width: 476px) and (max-width: 768px) {
-
-  /* hero banner */
-  .citrusHills__heroImage-copy .citrusHills__mobile-version {
-    display: none;
-  }
-
-  .citrusHills__heroImage-copy {
-    width: 90%;
-    margin: auto 5%;
-  }
-
-  .spotlightCopy h1 {
-    font-size: 28px;
-  }
-
-  .spotlightCopy h1 span {
-    font-size: 60px;
-  }
-
-  .spotlightCopy p {
-    margin-top: 10px;
-    font-size: 16px;
-    line-height: 17px;
-  }
-}
-
 /* End FAQ Right Accordion */
+
 @media all and (min-width: 922px) and (max-width: 1200px) {
   .citrusHills__FAQ {
     width: 94%;
@@ -1229,7 +969,6 @@ body {
     grid-template-columns: 1fr 2fr;
     grid-gap: 20px;
     padding: 0 20px;
-    /* align-items: center; */
   }
 }
 
@@ -1239,7 +978,6 @@ body {
     grid-template-columns: 1fr 2fr;
     grid-gap: 20px;
     padding: 0 20px;
-    /* align-items: center; */
   }
 }
 
@@ -1262,11 +1000,6 @@ body {
     grid-template-columns: 100%;
     grid-gap: 0px;
     padding: 0;
-    /* align-items: center; */
-  }
-
-  .citrusHills__disclaimer.spotlightFaq-dis {
-    padding-left: 10px;
   }
 
   /* faq section */
@@ -1299,7 +1032,6 @@ body {
     grid-template-columns: 100%;
     grid-gap: 0px;
     padding: 0 10px;
-    /* align-items: center; */
   }
 
   .citrusHills__faqImage-box {
@@ -1330,7 +1062,6 @@ body {
     grid-template-columns: 100%;
     grid-gap: 0px;
     padding: 0 10px;
-    /* align-items: center; */
   }
 
   .citrusHills__faqLeft {
@@ -1339,7 +1070,6 @@ body {
 
   .citrusHills__faqImage-box {
     text-align: center;
-    /* width: 890px; */
     width: 745px;
     overflow-x: auto;
     display: -webkit-box;
@@ -1389,71 +1119,6 @@ body {
     width: 440px;
   }
 
-  /* section cta style */
-  .citrusHills__heroCTA a {
-    min-width: -webkit-max-content;
-    min-width: -moz-max-content;
-    min-width: max-content;
-    line-height: 32px;
-    background: none;
-    border: none;
-    color: #fff;
-    text-transform: capitalize;
-    text-decoration: underline;
-  }
-
-  .citrusHills__accordionCTA a {
-    min-width: -webkit-max-content;
-    min-width: -moz-max-content;
-    min-width: max-content;
-    line-height: 32px;
-    background: none;
-    border: none;
-    color: #001952;
-    text-transform: capitalize;
-    text-decoration: underline;
-  }
-
-  .citrusHills__videoCTA {
-    margin-top: 0px;
-  }
-
-  .citrusHills__videoCTA a {
-    min-width: -webkit-max-content;
-    min-width: -moz-max-content;
-    min-width: max-content;
-    line-height: 32px;
-    background: none;
-    border: none;
-    color: #001952;
-    text-transform: capitalize;
-    text-decoration: underline;
-  }
-
-  .citrusHills__video {
-    width: 95%;
-    margin: 20px auto 40px;
-  }
-
-  .citrusHills__videoRow {
-    -ms-grid-rows: 1fr;
-    grid-template-rows: 1fr;
-    -ms-grid-columns: unset;
-    grid-template-columns: unset;
-  }
-
-  .citrusHills__videoRow>*:nth-child(1) {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
-  }
-
-  .citrusHills_top_video img {
-    max-width: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
-    min-height: 440px;
-  }
-
   .citrusHills .citrusHills-yt-video button,
   .citrusHills .citrusHills-yt-video button:focus-visible {
     background: none;
@@ -1461,65 +1126,6 @@ body {
     outline: none;
     cursor: pointer;
     padding: 0;
-  }
-
-  .citrusHills .show-video-top {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: #fff;
-    border-radius: 10px;
-    width: 100%;
-  }
-
-  .citrusHills .show-video-top span {
-    position: absolute;
-    right: 5px;
-    top: 5px;
-    z-index: 99999;
-    color: #333;
-    background: #fff;
-    width: 20px;
-    border-radius: 50%;
-    height: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #efefef;
-    font-size: 20px;
-    padding: 1px 0 0;
-    cursor: pointer;
-    display: none;
-  }
-
-  .citrusHills .show-video-top span:hover {
-    color: #fff;
-    background: #e4425c;
-    border: 1px solid #e4425c;
-  }
-
-  .citrusHills .show-video-top iframe {
-    width: 100%;
-    min-height: 460px;
-  }
-
-  .citrusHills__videoText {
-    min-height: 200px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-    padding-left: 25px;
   }
 
   .citrusHillsFaq__iframe {
@@ -1534,32 +1140,6 @@ body {
     border-radius: 10px;
     width: 100%;
     padding: 0;
-  }
-
-  .citrusHills .show-video span {
-    position: absolute;
-    right: 5px;
-    top: 5px;
-    z-index: 99999;
-    color: #333;
-    background: #fff;
-    width: 20px;
-    border-radius: 50%;
-    height: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #efefef;
-    font-size: 20px;
-    padding: 1px 0 0;
-    cursor: pointer;
-    display: none;
-  }
-
-  .citrusHills .show-video span:hover {
-    color: #fff;
-    background: #e4425c;
-    border: 1px solid #e4425c;
   }
 
   .citrusHills .show-video iframe {
@@ -1695,12 +1275,6 @@ body {
   color: #fff;
   font-weight: 400;
 }
-
-/* .citrusHills_vet-transform_TextContainer button {
-  max-width: 282px;
-  margin: 0 auto;
-  width: 100%;
-} */
 
 .citrusHills_vet-transform_TextContainer a div {
   max-width: 282px;
