@@ -478,7 +478,7 @@ body {
   border: none;
   border-radius: 20px;
   font-size: 13.5px;
-  font-family: "PetcoCircularTT-Bold", arial !important;
+  font-family: "PetcoCircularTT-Regular", arial !important;
   font-style: normal;
   cursor: pointer;
   fill: #F0F0F0;
@@ -490,6 +490,7 @@ body {
   color: #001952;
   border-bottom: 10px solid #001952;
   border-radius: 0;
+  font-family: "PetcoCircularTT-Bold", arial !important;
 }
 
 .citrusHills__tab_item.citrusHills__active_tab,
