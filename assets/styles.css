@@ -490,7 +490,6 @@ body {
   color: #001952;
   border-bottom: 10px solid #001952;
   border-radius: 0;
-  font-family: "PetcoCircularTT-Bold", arial !important;
 }
 
 .citrusHills__tab_item.citrusHills__active_tab,
@@ -498,6 +497,7 @@ body {
   color: white;
   background: #001952;
   font-weight: 700;
+  font-family: "PetcoCircularTT-Bold", arial !important;
 }
 
 .citrusHillsTabId,
