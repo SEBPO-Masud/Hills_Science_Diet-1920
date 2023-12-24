@@ -1103,7 +1103,7 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 2 !important;
   line-clamp: 2;
   -webkit-box-orient: vertical;
   max-height: 4em;
@@ -1582,7 +1582,7 @@ body {
   text-align: left;
 }
 
-@media all and (min-width: 922px) and (max-width: 1100px) {
+/* @media all and (min-width: 922px) and (max-width: 1100px) {
   .spotlightCopy h1 {
     font-size: 22px;
   }
@@ -1600,7 +1600,7 @@ body {
   .citrusHills__FAQ {
     width: 94%;
   }
-}
+} */
 
 @media screen and (min-width:769px) {
   .citrusHills__banner {
