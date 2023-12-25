@@ -271,7 +271,8 @@ body {
   }
 
   .citrus_hillsBP_carousel-indicators {
-    bottom: 50px !important;
+    /* bottom: 50px !important; */
+    bottom: 30px !important;
   }
 
   .citrus_petco_hills_bp__hero--copy .cta-box a:nth-child(2) {
@@ -561,7 +562,11 @@ body {
   background-color: #09205c;
 }
 
-@media only screen and (min-width: 1024px) {}
+@media screen and (min-width: 1280px) {
+  .citrus_hillsBP_carousel-indicators {
+    bottom: 0;
+  }
+}
 
 /* Medium devices */
 @media only screen and (min-width: 1024px) and (max-width: 1279px) {
